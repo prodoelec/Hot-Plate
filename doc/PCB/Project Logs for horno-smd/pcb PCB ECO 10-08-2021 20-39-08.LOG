@@ -1,0 +1,9 @@
+Added Component: Designator=PS1(CONV_HLK-PM03)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Hi-link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "HLK-PM03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Package"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/HLK-PM03/Hi-link/view-part/3215695/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Member To Class: ClassName=esquema Member=Component PS1 HLK-PM03

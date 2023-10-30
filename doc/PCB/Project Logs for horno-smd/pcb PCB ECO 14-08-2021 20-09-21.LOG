@@ -1,0 +1,7 @@
+Removed Member From Class: ClassName=esquema Member=C?
+Removed Member From Class: ClassName=esquema Member=L?
+Added Pin To Net: NetName=NetFH?_2 Pin=FH?-2
+Added Pin To Net: NetName=NetFH?_2 Pin=RT?-2
+Added Net: Name=NetFH?_2
+Added Pin To Net: NetName=NetPS1_2 Pin=RT?-1
+Added Net: Name=NetPS1_2

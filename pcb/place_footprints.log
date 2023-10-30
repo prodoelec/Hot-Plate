@@ -1,0 +1,26 @@
+09-04 10:28:48 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 641:Plugin executed on: 'win32'
+09-04 10:28:48 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 642:Plugin executed with python version: '3.9.14 (main, Dec 23 2022, 23:36:19) [MSC v.1934 64 bit (AMD64)]'
+09-04 10:28:48 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 643:KiCad build version: (7.0.0)
+09-04 10:28:48 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 644:Plugin version: 2.1.2
+09-04 10:28:48 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 645:Frame repr: <wx._core.Frame object at 0x00000215BFFCDDC0>
+09-04 10:28:48 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+09-04 10:28:56 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 824:Reference designator is: D
+09-04 10:28:56 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 825:Reference number is: 8
+09-04 10:28:56 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 857:Sorted and filtered list:
+['D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'D10']
+09-04 10:28:56 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 358:wx.Colour(240, 240, 240, 255)
+09-04 10:29:14 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 489:'15.695'
+09-04 10:29:14 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 895:Footprints to place:
+['D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'D10']
+09-04 10:29:14 com_github_MitjaNemec_PlaceFootprints.place_footprints 330:Starting placing with circular layout
+09-04 10:29:14 com_github_MitjaNemec_PlaceFootprints.place_footprints 340:reference footprint position at: VECTOR2I(196100000, 83400000)
+09-04 10:29:14 com_github_MitjaNemec_PlaceFootprints.place_footprints 345:rotation center at: (196100000, 99095000.0)
+09-04 10:29:14 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 913:Fatal error when executing place footprints
+Traceback (most recent call last):
+  File "C:\KiCadLib-Prodoelec\kicad-plugings\plugins\com_github_MitjaNemec_PlaceFootprints\action_place_footprints.py", line 908, in Run
+    placer.place_circular(footprints_to_place, ref_fp_ref, radius, delta_angle, delta_radius,
+  File "C:\KiCadLib-Prodoelec\kicad-plugings\plugins\com_github_MitjaNemec_PlaceFootprints\place_footprints.py", line 364, in place_circular
+    self.replicate_fp_text_items(ref_fp, fp)
+  File "C:\KiCadLib-Prodoelec\kicad-plugings\plugins\com_github_MitjaNemec_PlaceFootprints\place_footprints.py", line 445, in replicate_fp_text_items
+    "Source module: " + src_fp + " has different number of text items (" + repr(len(src_fp_text_items))
+TypeError: can only concatenate str (not "Footprint") to str

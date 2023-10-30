@@ -1,0 +1,6 @@
+Removed Member From Class: ClassName=esquema Member=J?
+Removed Member From Class: ClassName=esquema Member=PS1
+Removed Member From Class: ClassName=esquema Member=PS
+Added Pin To Net: NetName=NetIC1_16 Pin=IC1-16
+Added Net: Name=NetIC1_16
+Added Room: Name=esquema

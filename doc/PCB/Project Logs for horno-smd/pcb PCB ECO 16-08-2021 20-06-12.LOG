@@ -1,0 +1,16 @@
+Added Pin To Net: NetName=BT_ENABLE Pin=IC1-15
+Added Net: Name=BT_ENABLE
+Added Pin To Net: NetName=BT_RX Pin=IC1-13
+Added Pin To Net: NetName=BT_RX Pin=U-2
+Added Net: Name=BT_RX
+Added Pin To Net: NetName=BT_STATUS Pin=IC1-14
+Added Pin To Net: NetName=BT_STATUS Pin=U-24
+Added Net: Name=BT_STATUS
+Added Pin To Net: NetName=BT_TX Pin=IC1-12
+Added Pin To Net: NetName=BT_TX Pin=U-1
+Added Net: Name=BT_TX
+Added Pin To Net: NetName=NetFH1_2 Pin=FH1-2
+Added Pin To Net: NetName=NetFH1_2 Pin=RT1-2
+Added Net: Name=NetFH1_2
+Added Pin To Net: NetName=NetPS1_2 Pin=RT1-1
+Added Net: Name=NetPS1_2

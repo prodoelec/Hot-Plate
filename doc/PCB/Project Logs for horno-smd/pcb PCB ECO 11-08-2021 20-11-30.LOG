@@ -1,0 +1,10 @@
+Added Component: Designator=U(XCVR_BLUETOOTH-SERIAL-HC-06)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Olimex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BLUETOOTH-SERIAL-HC-06"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BLUETOOTH-SERIAL-HC-06/Olimex/view-part/2768234/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Member To Class: ClassName=esquema Member=Component U BLUETOOTH-SERIAL-HC-06
+Added Room: Name=esquema

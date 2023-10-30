@@ -1,0 +1,138 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ef9e566c-22f6-44e9-9d19-e3af99aa2451)
+
+  (paper "A4")
+
+  (title_block
+    (title "HOT-PLATE")
+    (rev "1")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 130.048 121.412) (size 34.544 35.306) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 194 1))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0885315c-3e68-4e40-8304-5beeff14747e)
+    (property "Sheetname" "Encoder" (at 130.048 120.7004 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Encoder.kicad_sch" (at 130.048 157.3026 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Hot_plate"
+        (path "/ef9e566c-22f6-44e9-9d19-e3af99aa2451" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 63.246 123.952) (size 36.576 32.258) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1bff75a5-90d3-4608-818b-b85fa3fc1bc2)
+    (property "Sheetname" "Paso por cero" (at 63.246 123.2404 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "paso_por_cero.kicad_sch" (at 63.246 156.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Hot_plate"
+        (path "/ef9e566c-22f6-44e9-9d19-e3af99aa2451" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 127 23.368) (size 35.306 35.56)
+    (stroke (width 0.1524) (type solid) (color 0 0 194 1))
+    (fill (color 0 0 0 0.0000))
+    (uuid 26a04483-499d-4132-9527-6252e9ae0340)
+    (property "Sheetname" "Fuente" (at 127 22.6564 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "fuente.kicad_sch" (at 127 59.69 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Hot_plate"
+        (path "/ef9e566c-22f6-44e9-9d19-e3af99aa2451" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 128.524 69.342) (size 35.306 34.798) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 194 1))
+    (fill (color 0 0 0 0.0000))
+    (uuid 30305bcd-70a4-494c-beb0-39559fd2a315)
+    (property "Sheetname" "MCU" (at 128.524 68.6304 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu.kicad_sch" (at 128.524 104.7246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Hot_plate"
+        (path "/ef9e566c-22f6-44e9-9d19-e3af99aa2451" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 187.96 120.904) (size 36.068 35.052) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 33f76496-c1da-4d95-a481-511f9966c437)
+    (property "Sheetname" "Anillo Led" (at 187.96 120.1924 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "anillo_led.kicad_sch" (at 187.96 156.5406 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Hot_plate"
+        (path "/ef9e566c-22f6-44e9-9d19-e3af99aa2451" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 188.214 69.596) (size 35.814 35.052) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 194 1))
+    (fill (color 0 0 0 0.0000))
+    (uuid 52fbd8ca-2f01-4587-b2e6-c0090c0fd83b)
+    (property "Sheetname" "Salidas" (at 188.214 68.8844 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ssrs.kicad_sch" (at 188.214 105.2326 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Hot_plate"
+        (path "/ef9e566c-22f6-44e9-9d19-e3af99aa2451" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 64.262 70.358) (size 35.56 35.306) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 194 1))
+    (fill (color 0 0 0 0.0000))
+    (uuid ec016e49-9830-4266-a660-91444c50c1bd)
+    (property "Sheetname" "Temperatura" (at 64.262 69.6464 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "temperatura.kicad_sch" (at 64.262 106.2486 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Hot_plate"
+        (path "/ef9e566c-22f6-44e9-9d19-e3af99aa2451" (page "5"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

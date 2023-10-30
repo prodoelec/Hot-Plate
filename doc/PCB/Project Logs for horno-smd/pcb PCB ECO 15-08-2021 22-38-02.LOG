@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=BT_TX Pin=IC1-2
+Removed Pin From Net: NetName=BT_RX Pin=IC1-9
+Removed Pin From Net: NetName=BT_STATUS Pin=IC1-10
+Removed Pin From Net: NetName=BT_ENABLE Pin=IC1-11
+Added Pin To Net: NetName=BT_TX Pin=IC1-12
+Added Pin To Net: NetName=BT_RX Pin=IC1-13
+Added Pin To Net: NetName=BT_STATUS Pin=IC1-14
+Added Pin To Net: NetName=BT_ENABLE Pin=IC1-15
